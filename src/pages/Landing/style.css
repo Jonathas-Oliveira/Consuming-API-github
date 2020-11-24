@@ -1,0 +1,54 @@
+html,body, #root{
+    height:100vh;
+}
+
+main{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:0.3rem
+}
+.logo{
+    width:200px;
+    height:100px;
+    margin-left:4.0rem;
+    margin-bottom:4rem;
+    margin-top:6rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+input{
+    height: 2.9rem;
+    border-radius: 0.7rem;
+    padding: 0 10px 0 ;
+    
+}
+.buttonSpacing {
+    width: 21.0rem;
+    height: 2.9rem;
+    background: #FFCE00;
+    color: black;
+    border: 0;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    font: 700 1.4rem  bold;
+    font-family:'Archivo Narrow';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 1.2rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+@media(min-width:700px){
+    
+    .Container{
+        margin-left: 0%;
+    }
+}

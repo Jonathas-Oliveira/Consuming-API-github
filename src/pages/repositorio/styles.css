@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.containeR{
+    font-size: 1.0rem;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap:wrap;
+
+    flex-direction: column;
+
+}
+.seta{
+    width:40px;
+    height:40px;
+    margin-left:-30px
+}
+.header{
+    display: flex;
+    justify-content:left;
+}
+
+.containerRepo{
+    margin-top: 2rem;
+    border-bottom: solid 1px black;
+    width: 400px;
+    height: 150px;
+    margin-left: 2%;
+
+}
+.star-container{
+    display: flex;
+    justify-content: left;
+}
+.star{
+    width:20px;
+    height: 20px;
+}
+.stargazers_count{
+    margin-left: 10px;
+    margin-top: 2px;
+}
+.title{
+    color: white;
+    font-size:1.5rem;
+    font-weight: 700; 
+
+}
+.description{
+    color: gray;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+@media(min-width:700px){
+    .seta{
+        margin-left:-25%
+    }
+}
